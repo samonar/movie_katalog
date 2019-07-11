@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_poster"
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/img_poster"
+        android:text="@string/title_movie"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_release"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/img_poster"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="@string/release" />
+
+    <ImageView
+        android:id="@+id/star"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:layout_below="@id/tv_release"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="13dp"
+        android:layout_toRightOf="@id/img_poster"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <TextView
+        android:id="@+id/tv_rating"
+        android:layout_width="79dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_release"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="13dp"
+        android:layout_toRightOf="@id/star"
+        android:text="@string/rating"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>

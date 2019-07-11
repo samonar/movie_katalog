@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">MovieKatalog</string>
+    <string name="title_movie">Judul Film</string>
+    <string name="release">Tahun</string>
+    <string name="rating">rating</string>
+    <string-array name="title">
+        <item>Toy Story 4</item>
+        <item>Annabelle Comes Home</item>
+        <item>Yesterday</item>
+        <item>Aladdin</item>
+        <item>The Secret Life of Pets 2</item>
+        <item>Men in Black International</item>
+        <item>Avengers  Endgame</item>
+        <item>Childs Play</item>
+        <item>Rocketman</item>
+        <item>John Wick Chapter 3  Parabellum</item>
+    </string-array>
+
+    <string-array name="release">
+        <item>Animation, Adventure, Comedy | 21 June 2019 (Indonesia)</item>
+        <item>Horror, Mystery, Thriller | 26 June 2019 (Indonesia)</item>
+        <item>Comedy, Fantasy, Music | 28 June 2019 (Indonesia)</item>
+        <item>Adventure, Comedy, Family | 22 May 2019 (Indonesia)</item>
+        <item>Animation, Adventure, Comedy | 14 June 2019 (Indonesia)</item>
+        <item>Action, Adventure, Comedy | 19 June 2019 (Indonesia)</item>
+        <item>Action, Adventure, Sci-Fi | 24 April 2019 (Indonesia)</item>
+        <item>Horror | 21 June 2019 (Indonesia)</item>
+        <item>Biography, Drama, Music | 22 May 2019 (UK)</item>
+        <item>Action, Crime, Thriller | 15 May 2019 (Indonesia)</item>
+    </string-array>
+
+    <string-array name="rating">
+        <item>8,3</item>
+        <item>6,4</item>
+        <item>7,1</item>
+        <item>7,4</item>
+        <item>6,6</item>
+        <item>5,7</item>
+        <item>8,7</item>
+        <item>6,4</item>
+        <item>7,7</item>
+        <item>8,0</item>
+    </string-array>
+
+    <string-array name="poster">
+        <item>@drawable/toy_story4</item>
+        <item>@drawable/annabelle_comes_home</item>
+        <item>@drawable/yesterday</item>
+        <item>@drawable/aladdin</item>
+        <item>@drawable/the_secret_life_of_pets_2</item>
+        <item>@drawable/men_in_black_international</item>
+        <item>@drawable/avengers_endgame</item>
+        <item>@drawable/childs_play</item>
+        <item>@drawable/rocketman</item>
+        <item>@drawable/john_wick_chapter_3_parabellum</item>
+    </string-array>
+</resources>
